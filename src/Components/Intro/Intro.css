@@ -1,0 +1,90 @@
+.Intro {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  text-align: left;
+  width: 100%;
+  min-height: 55vh;
+  padding: 2em 2em 0 2em;
+}
+.Intro-content {
+  width: 50%;
+}
+.Intro-h3 {
+  font-size: 2.5em;
+  padding: 0.5em 0;
+}
+.Intro-contact {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  text-align: center;
+}
+.Intro-p {
+  font-size: 0.9em;
+  margin: 0.5em 0;
+}
+.Intro-featured {
+  width: 35%;
+}
+.Intro-img {
+  width: 50%;
+  overflow: hidden;
+  background-image: url(/assets/phone-frame.svg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+.Intro-h2 {
+  font-weight: 700;
+  font-size: 2em;
+  padding: 4em 0 0;
+}
+.Intro-h4 {
+  font-size: 2em;
+  font-weight: 300;
+  text-align: center;
+  padding: 1em 6em;
+}
+.Intro-whiteBtn {
+  background-color: white;
+  color: black;
+  margin-bottom: 1em;
+}
+
+@media screen and (max-width: 1024px) {
+  .Intro {
+    flex-flow: column wrap;
+  }
+  .Intro-content {
+    width: 65%;
+    margin: auto;
+  }
+  .Intro-img {
+    width: 65%;
+    margin: 3em auto 0;
+    padding-bottom: 1em;
+  }
+}
+@media screen and (max-width: 780px) {
+  .Intro-h4 {
+    padding: 3em 3em 1em;
+  }
+}
+@media screen and (max-width: 560px) {
+  .Intro-img {
+    width: 100%;
+  }
+  .Intro-content {
+    margin: 0.5em auto;
+  }
+  .Intro-contact {
+    flex-direction: column;
+  }
+  .Intro-input {
+    margin-bottom: 1em;
+  }
+}/*# sourceMappingURL=Intro.css.map */

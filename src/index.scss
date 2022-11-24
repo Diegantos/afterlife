@@ -1,0 +1,8 @@
+@use './partials/_reset';
+@use './partials/variables';
+
+body{
+    font-family: 'Inter', sans-serif;
+    background-color: #f9f8f2;
+    color: black;
+}

@@ -1,0 +1,99 @@
+.Intro{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    text-align: left;
+
+    width: 100%;
+    min-height: 55vh;
+
+    padding: 2em 2em 0 2em;
+    &-content{
+        width: 50%;
+    }
+    &-h3{
+        font-size: 2.5em;
+        padding: 0.5em 0;
+    }
+    &-contact{
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: flex-start;
+        text-align: center;
+    }
+    &-p{
+        font-size: 0.9em;
+        margin: 0.5em 0;
+    }
+    &-featured{
+        width: 35%;
+    }
+    &-img{
+        width: 50%;
+        overflow: hidden;
+        background-image: url(/assets/phone-frame.svg);
+        background-position: top center;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: flex-start;
+        align-items: center;
+        // filter: drop-shadow(-3em 1em 1em lime);
+    }
+    &-h2{
+        font-weight: 700;
+        font-size: 2em;
+        padding: 4em 0 0;
+    }
+    &-h4{
+        font-size: 2em;
+        font-weight: 300;
+        text-align: center;
+        padding: 1em 6em;
+    }
+    &-whiteBtn{
+        background-color: white;
+        color: black;
+        margin-bottom: 1em;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .Intro{
+        flex-flow: column wrap;
+        &-content{
+            width: 65%;
+            margin: auto;
+        }
+        &-img{
+            width: 65%;
+            margin: 3em auto 0;
+            padding-bottom: 1em;
+        }
+        // &-h4{
+        //     padding: 4em;
+        // }
+    }
+}
+@media screen and (max-width: 780px) {
+    .Intro{
+        &-h4{
+            padding: 3em 3em 1em;
+        }
+    }
+}
+@media screen and (max-width: 560px) {
+    .Intro{
+        &-img{
+            width: 100%;
+        }
+        &-content{
+            margin: 0.5em auto;
+        }
+        &-contact{
+            flex-direction: column;
+        }
+        &-input{
+            margin-bottom: 1em;
+        }
+    }
+}

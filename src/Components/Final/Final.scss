@@ -1,0 +1,54 @@
+.Final{
+    margin: 8em 0;
+    &-title{
+        text-align: center;
+    }
+    &-p{
+        text-align: center;
+        margin-bottom: 5em;
+    }
+    &-grid{
+        display: grid;
+        grid-template-columns: repeat( 3, 1fr);
+        gap: 2em;
+    }
+}
+.Wrapper{
+    padding: 0 1em;
+}
+.Card{
+    border: 1px solid #5252521f;
+    border-radius: 1em;
+    padding: 2em;
+    &-svg{
+        width: 1.5em;
+        height: 1.5em;
+        margin-bottom: 1em;
+    }
+    &-title{
+        font-size: .875rem;
+        font-weight: 600;
+    }
+    &-p{
+        font-size: .875rem;
+        font-weight: 400;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .Final{
+        padding: 0 1em;
+        &-grid{
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+}
+
+@media screen and (max-width: 675px) {
+    .Final{
+        padding: 0 1em;
+        &-grid{
+            grid-template-columns: repeat(1, 1fr);
+        }
+    }
+}

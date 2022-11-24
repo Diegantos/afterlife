@@ -1,0 +1,55 @@
+.Final {
+  margin: 8em 0;
+}
+.Final-title {
+  text-align: center;
+}
+.Final-p {
+  text-align: center;
+  margin-bottom: 5em;
+}
+.Final-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2em;
+}
+
+.Wrapper {
+  padding: 0 1em;
+}
+
+.Card {
+  border: 1px solid rgba(82, 82, 82, 0.1215686275);
+  border-radius: 1em;
+  padding: 2em;
+}
+.Card-svg {
+  width: 1.5em;
+  height: 1.5em;
+  margin-bottom: 1em;
+}
+.Card-title {
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+.Card-p {
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 1024px) {
+  .Final {
+    padding: 0 1em;
+  }
+  .Final-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 675px) {
+  .Final {
+    padding: 0 1em;
+  }
+  .Final-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}/*# sourceMappingURL=Final.css.map */
