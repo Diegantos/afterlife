@@ -26,7 +26,7 @@ En este proyecto me he introducido en mi primera prueba realizando una web con R
 Si quieres hechar un vistazo al proyecto, te recomiendo:
 
 ![Captura del proyecto](https://user-images.githubusercontent.com/118907489/204322965-348bbd4c-6153-4c59-83f4-7e1755909130.png)
-![Captura del proyecto](https://user-images.githubusercontent.com/118907489/204322974-0e1cc737-4894-47c7-b517-6377b02a524b.png)
+![Captura del proyecto](https://user-images.githubusercontent.com/118907489/204323725-d4e7cfcd-21c7-4976-99cf-030641f0fec9.png)
 ![Captura del proyecto](https://user-images.githubusercontent.com/118907489/204322978-785e6e7c-c4fa-4b20-a849-19003fe1c574.png)
 
 ## Autor ✒️
