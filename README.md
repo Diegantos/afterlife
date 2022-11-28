@@ -11,7 +11,7 @@ En este proyecto me he introducido en mi primera prueba realizando una web con R
 
 ## ¿Qué he aprendido en este proyecto? 🙇🏻 
 
-En este proyecto me he introducido en mi primera prueba realizando una web con React
+He aprendido a utilizar componentes en React en la que he podido introducir unas tabs para la práctica de clicks
 
 ## Tecnologías 🛠
 <!-- Iconos sacados de: https://github.com/hendrasob/badges/blob/master/README.md y https://github.com/alexandresanlim/Badges4-README.md-Profile -->
