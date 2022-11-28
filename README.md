@@ -1,5 +1,4 @@
 # Aferlife
-![Imagen del proyecto](https://github.com/eduardofierropro/Portafolio-y-CV/blob/main/IMAGEN-DEL-PROYECTO.jpg?raw=true)
 ![Imagen del proyecto](https://user-images.githubusercontent.com/118907489/204322209-21d44fa6-5166-4321-84e3-43b62a3c1cf9.png)
 
 ## Ejemplo en vivo
